@@ -7,13 +7,13 @@ Site.create([
 ])
 
 User.create([
-    {firstname: 'Curtis', lastname: 'Simms', isAdmin: true, email: 'cs@buildersco.com', password_digest: 'simms'},
-    {firstname: 'Joy', lastname: 'Castillo', isAdmin: true, email: 'jc@buildersco.com', password_digest: 'castillo'},
-    {firstname: 'Richard', lastname: 'Moore', isAdmin: false, email: 'rm@buildersco.com', password_digest: 'moore'},
-    {firstname: 'Henry', lastname: 'Perkins', isAdmin: false, email: 'hp@buildersco.com', password_digest: 'perkins'},
-    {firstname: 'Carla', lastname: 'Atkinson', isAdmin: false, email: 'c@buildersco.com', password_digest: 'atkinson'},
-    {firstname: 'Ruby', lastname: 'Reyes', isAdmin: false, email: 'rr@buildersco.com', password_digest: 'reyes'},
-    {firstname: 'David', lastname: 'Bell', isAdmin: false, email: 'db@buildersco.com', password_digest: 'bell'}
+    {firstname: 'Curtis', lastname: 'Simms', isAdmin: true, email: 'cs@buildersco.com', password: 'simms', password_confirmation: 'simms'},
+    {firstname: 'Joy', lastname: 'Castillo', isAdmin: true, email: 'jc@buildersco.com', password: 'castillo', password_confirmation: 'castillo'},
+    {firstname: 'Richard', lastname: 'Moore', isAdmin: false, email: 'rm@buildersco.com', password: 'moore', password_confirmation: 'moore'},
+    {firstname: 'Henry', lastname: 'Perkins', isAdmin: false, email: 'hp@buildersco.com', password: 'perkins', password_confirmation: 'perkins'},
+    {firstname: 'Carla', lastname: 'Atkinson', isAdmin: false, email: 'c@buildersco.com', password: 'atkinson', password_confirmation: 'atkinson'},
+    {firstname: 'Ruby', lastname: 'Reyes', isAdmin: false, email: 'rr@buildersco.com', password: 'reyes', password_confirmation: 'reyes'},
+    {firstname: 'David', lastname: 'Bell', isAdmin: false, email: 'db@buildersco.com', password: 'bell', password_confirmation: 'bell'}
 ])
 
 Tool.create([
